@@ -1,0 +1,74 @@
+ @import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:wght@400;700&family=Nunito+Sans:wght@300;400;500;700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Libre+Caslon+Text:wght@400;700&display=swap');
+*{
+    color: rgb(74, 74, 67);
+    font-family:"libre caslon display",sans-serif ;
+    margin: 0;
+    padding: 0;
+}
+ .nav-link:hover,
+.dropdown-item:hover{
+    border-bottom: 2px solid black;
+    padding-bottom: 2px;
+}
+header{
+    background-image: url(https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/dossenbach0a5yk/main2-A0xK3w5v20ulGZKB.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.btn{
+    text-transform: uppercase;
+    font-family:Nunito ;
+    font-size: 0.85rem;
+    padding-block: 0.6rem;
+    letter-spacing: 0.1rem;
+
+}
+.hero{
+    margin-bottom: 7rem;
+}
+.hero>p{
+    font-family:Nunito ;
+}
+h5{
+    font-family: libre caslon display;
+    font-size: 0.9rem;
+    font-weight: 400;
+    
+}
+@media screen and (min-width :768px){
+    .header-name{
+        font-size: 7rem !important;
+    }
+    .hero{
+        width: 50% !important;
+    }
+}
+
+.card{
+    border: none;
+}
+.card-title{
+    font-family: "libre caslon display", sans-serif ;
+}
+.card-img-top{
+    width: 23%;
+}
+.card-text{
+    font-size: 0.95rem;
+}
+
+
+.sec2,.sec5{
+    background-color: rgb(243, 243, 242);
+}
+.sec4{
+    background-color: rgb(135, 135, 128);
+}
+footer{
+    background-color: rgb(74, 74, 67);
+}
+.psych-help{
+    width: 30%;
+}
